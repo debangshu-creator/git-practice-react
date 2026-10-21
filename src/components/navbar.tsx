@@ -1,12 +1,12 @@
 import {Button} from './button'
 
-export const Navbar = (props:any) => {
+export const Navbar = () => {
   return (
     <>
     <div>
       NavBar  
     </div>
-    <Button count = {props.count} />
+    <Button/>
   </>
   )
 }
